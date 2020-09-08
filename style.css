@@ -7,14 +7,15 @@
 body {
   background: var(--lightBlue);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .container {
   background: var(--mainwhite);
   width: 800px;
   height: 350px;
-  margin-top: 7rem;
+  margin-top: 5rem;
+  margin-left: 17rem;
 }
 
 h1,
@@ -65,4 +66,14 @@ h3 {
   color: #ff2500;
   background: #ff7f7f;
   font-size: 1.2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-2 {
+  width: 150px;
+  height: 60px;
 }

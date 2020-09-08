@@ -18,3 +18,7 @@ message1.addEventListener("submit", function (event) {
     formValue.value = "";
   }
 });
+
+function goBack() {
+  window.history.back();
+}
